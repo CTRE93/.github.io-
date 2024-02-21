@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 10px;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px;
+}
+
+/**
+* Create a position for the map
+* on the page */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/**
+* Set rules for how the map overlays
+* (information box and legend) will be displayed
+* on the page. */
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #ff0000;
+  margin-right: 20px;
+  font-family: "Ruda", sans-serif;
+  overflow: auto;
+  border-radius: 30px;
+}
+
+#features {
+  top: 0;
+  height: 200px;
+  margin-top: 20px;
+  width: 470px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 280px !important;
+}
